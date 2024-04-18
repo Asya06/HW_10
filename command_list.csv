@@ -1,0 +1,35 @@
+    1  git clone --global user.name "Anastasiia Harmatiuk" 
+    2  git config --global user.name "Anastasiia Harmatiuk"
+    3  git config --global user.email "nastyagarma@gmail.com"
+    4  git clone https://github.com/Asya06/HW_10.git
+    5  cd HW_10
+    6  touch text_ignore.txt
+    7  ls -l
+    8  git status
+    9  notepad .gitignore
+   10  git status
+   11  git add text_ignore.txt
+   12  git status
+   13  git add .
+   14  git commit -m "chalenge gitignore"
+   15  touch main_test.txt
+   16  git add .
+   17  git commit -m "new file"
+   18  git checkout -b develop
+   19  touch develop_test.txt
+   20  git add .
+   21  git commit -m "new file develope"
+   22  git status
+   23  notepad develop_test.txt
+   24  git status
+   25  notepad develop_test.txt
+   26  git status
+   27  git add .
+   28  git commit -m "file"
+   29  git checkout -b main
+   30  git branch
+   31  git checkout main
+   32  git merge develope
+   33  git merge develop
+   34  git log
+   35  history > command_list.csv
